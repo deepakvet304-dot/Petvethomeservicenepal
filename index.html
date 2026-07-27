@@ -1,8 +1,36 @@
-DOCTYPE 
-nav{
-background:#065f46;
-padding:10px;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PetVet Home Service Nepal</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f4fff5;
+color:#333;
+}
+
+header{
+background:#0b8f4d;
+color:white;
+padding:15px;
 text-align:center;
+}
+
+header h1{
+font-size:30px;
+}
+
+nav{
+margin-top:10px;
 }
 
 nav a{
@@ -13,7 +41,182 @@ font-weight:bold;
 }
 
 .hero{
-padding:40px>
+background:#1fb56d;
+color:white;
+padding:60px 20px;
+text-align:center;
+}
 
-</body>
-</html>
+.hero h2{
+font-size:40px;
+}
+
+.hero p{
+margin-top:15px;
+font-size:20px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:15px 30px;
+background:white;
+color:#0b8f4d;
+text-decoration:none;
+font-weight:bold;
+border-radius:30px;
+}
+
+section{
+padding:50px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 0 10px rgba(0,0,0,.1);
+text-align:center;
+}
+
+.card h3{
+margin-bottom:10px;
+color:#0b8f4d;
+}
+
+footer{
+background:#0b8f4d;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px;
+border-radius:50%;
+font-size:28px;
+text-decoration:none;
+}
+
+.call{
+position:fixed;
+bottom:90px;
+right:20px;
+background:red;
+color:white;
+padding:15px;
+border-radius:50%;
+font-size:28px;
+text-decoration:none;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🐶 PetVet Home Service Nepal 🐱</h1>
+
+<nav>
+
+<a href="#">Home</a>
+
+<a href="#about">About</a>
+
+<a href="#services">Services</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h2>Professional Veterinary Home Service</h2>
+
+<p>Kathmandu | Lalitpur | Bhaktapur</p>
+
+<a class="btn" href="tel:984698332">📞 Call Now</a>
+
+</section>
+
+<section id="about">
+
+<h2>About Us</h2>
+
+<p>
+
+PetVet Home Service Nepal provides professional veterinary services at your home.
+
+We provide treatment, vaccination, deworming, emergency care and pet accessories delivery.
+
+</p>
+
+</section>
+
+<section id="services">
+
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+
+<h3>🏥 Home Treatment</h3>
+
+<p>Professional veterinary treatment at your home.</p>
+
+</div>
+
+<div class="card">
+
+<h3>💉 Vaccination</h3>
+
+<p>Dog & Cat Vaccination.</p>
+
+</div>
+
+<div class="card">
+
+<h3>🦴 Deworming</h3>
+
+<p>Complete Deworming Service.</p>
+
+</div>
+
+<div class="card">
+
+<h3>🚑 Emergency</h3>
+
+<p>Emergency Veterinary Home Visit.</p>
+
+</div>
+
+<div class="card">
+
+<h3>🛍 Pet Accessories</h3>
+
+<p>Pet Food & Accessories Delivery.</p>
+
+</div>
+
+</div>
+
+</section>
