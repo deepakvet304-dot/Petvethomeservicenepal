@@ -88,3 +88,83 @@ margin:10px;
 .btn:hover{
 background:#0b8f4d;
 }
+.about,
+.services,
+.why-us,
+.reviews,
+#appointment,
+#contact{
+padding:80px 0;
+}
+
+.about h2,
+.services h2,
+.why-us h2,
+.reviews h2,
+#appointment h2,
+#contact h2{
+text-align:center;
+color:#0b8f4d;
+margin-bottom:30px;
+font-size:36px;
+}
+
+.about p{
+text-align:center;
+max-width:900px;
+margin:auto;
+font-size:18px;
+}
+
+.about-box,
+.service-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.about-card,
+.service-card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.about-card:hover,
+.service-card:hover{
+transform:translateY(-8px);
+}
+
+.about-card h3,
+.service-card h3{
+color:#0b8f4d;
+margin-bottom:15px;
+}
+
+form{
+max-width:700px;
+margin:auto;
+}
+
+form input,
+form textarea{
+width:100%;
+padding:15px;
+margin:10px 0;
+border:1px solid #ddd;
+border-radius:10px;
+font-size:16px;
+}
+
+form textarea{
+height:140px;
+resize:vertical;
+}
+
+form button{
+border:none;
+cursor:pointer;
+}
