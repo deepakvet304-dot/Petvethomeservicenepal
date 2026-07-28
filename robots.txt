@@ -1,1 +1,4 @@
+User-agent: *
+Allow: /
 
+Sitemap: https://deepakvet304-dot.github.io/Petvethomeservicenepal/sitemap.xml
