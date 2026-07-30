@@ -347,3 +347,31 @@ transition:.3s;
 .whatsapp-float img:hover{
 transform:scale(1.1);
 }
+#darkModeBtn{
+background:#198754;
+color:#fff;
+border:none;
+padding:10px 15px;
+border-radius:8px;
+cursor:pointer;
+font-weight:bold;
+}
+
+body.dark{
+background:#121212;
+color:#ffffff;
+}
+
+body.dark header,
+body.dark footer,
+body.dark section,
+body.dark .card,
+body.dark .review-box,
+body.dark .faq-item{
+background:#1e1e1e;
+color:#ffffff;
+}
+
+body.dark a{
+color:#90ee90;
+}
