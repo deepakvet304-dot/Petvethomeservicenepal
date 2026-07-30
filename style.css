@@ -287,3 +287,21 @@ padding:20px;
 border-radius:12px;
 box-shadow:0 5px 15px rgba(0,0,0,.1);
 }
+#reviews{
+    padding:60px 20px;
+    background:#f5fff7;
+    text-align:center;
+}
+
+.review-box{
+    max-width:700px;
+    margin:20px auto;
+    background:#fff;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.review-box h3{
+    color:#f4b400;
+}
